@@ -14,9 +14,9 @@ const answer1 = document.getElementById("answer1");
 
 plus.addEventListener("click", function () {
   if (plus.src.includes("icon-plus.svg")) {
-    plus.src = "/images/icon-minus.svg";
+    plus.src = "images/icon-minus.svg";
   } else {
-    plus.src = "/images/icon-plus.svg";
+    plus.src = "images/icon-plus.svg";
   }
 
   handleAnswer();
