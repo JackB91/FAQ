@@ -1,6 +1,8 @@
 html {
     font-size: 62.5%;
     font-family: "Work Sans", sans-serif ;
+  
+    
 }
 
 body {
@@ -11,9 +13,22 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    background-color: hsl(275, 100%, 97%);
+    /* background-color: hsl(275, 100%, 97%); */
     font-size: .8rem;
     color: hsl(292, 42%, 14%);
+
+    background:url(/images/background-pattern-mobile.svg),hsl(275, 100%, 97%); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+@media screen and (min-width: 1200px) {
+    body {  
+        background:url(/images/background-pattern-desktop.svg),hsl(275, 100%, 97%);
+        background-repeat: no-repeat;
+        background-size: 100%;}
+    
 }
 
 
