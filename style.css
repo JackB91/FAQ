@@ -17,7 +17,7 @@ body {
     font-size: .8rem;
     color: hsl(292, 42%, 14%);
 
-    background:url(/images/background-pattern-mobile.svg),hsl(275, 100%, 97%); 
+    background:url(images/background-pattern-mobile.svg),hsl(275, 100%, 97%); 
     background-repeat: no-repeat;
     background-size: 100%;
 
@@ -25,14 +25,14 @@ body {
 
 @media screen and (min-width: 1200px) {
     body {  
-        background:url(/images/background-pattern-desktop.svg),hsl(275, 100%, 97%);
+        background:url(images/background-pattern-desktop.svg),hsl(275, 100%, 97%);
         background-repeat: no-repeat;
         background-size: 100%;}
     
 }
 
 h1 {
-    font-weight: 700;
+    font-weight: 70;
 }
 
 h2 {
